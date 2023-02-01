@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LucasEstevesdeAbreuR\\Desktop\\MAG\\MagPay.Functions\\MagPay.Tests.E2E\\MagPay.Tests.E2E\\ApiNET\\ApiNET\\ApiCatlogo.csproj": {}
+    "C:\\Users\\LucasEstevesdeAbreuR\\Documents\\PROJETOS\\Apis\\ApiCatalogo-.NET\\ApiNET\\ApiCatlogo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LucasEstevesdeAbreuR\\Desktop\\MAG\\MagPay.Functions\\MagPay.Tests.E2E\\MagPay.Tests.E2E\\ApiNET\\ApiNET\\ApiCatlogo.csproj": {
+    "C:\\Users\\LucasEstevesdeAbreuR\\Documents\\PROJETOS\\Apis\\ApiCatalogo-.NET\\ApiNET\\ApiCatlogo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LucasEstevesdeAbreuR\\Desktop\\MAG\\MagPay.Functions\\MagPay.Tests.E2E\\MagPay.Tests.E2E\\ApiNET\\ApiNET\\ApiCatlogo.csproj",
+        "projectUniqueName": "C:\\Users\\LucasEstevesdeAbreuR\\Documents\\PROJETOS\\Apis\\ApiCatalogo-.NET\\ApiNET\\ApiCatlogo.csproj",
         "projectName": "ApiCatlogo",
-        "projectPath": "C:\\Users\\LucasEstevesdeAbreuR\\Desktop\\MAG\\MagPay.Functions\\MagPay.Tests.E2E\\MagPay.Tests.E2E\\ApiNET\\ApiNET\\ApiCatlogo.csproj",
+        "projectPath": "C:\\Users\\LucasEstevesdeAbreuR\\Documents\\PROJETOS\\Apis\\ApiCatalogo-.NET\\ApiNET\\ApiCatlogo.csproj",
         "packagesPath": "C:\\Users\\LucasEstevesdeAbreuR\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LucasEstevesdeAbreuR\\Desktop\\MAG\\MagPay.Functions\\MagPay.Tests.E2E\\MagPay.Tests.E2E\\ApiNET\\ApiNET\\obj\\",
+        "outputPath": "C:\\Users\\LucasEstevesdeAbreuR\\Documents\\PROJETOS\\Apis\\ApiCatalogo-.NET\\ApiNET\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LucasEstevesdeAbreuR\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[7.0.2, )"
             },

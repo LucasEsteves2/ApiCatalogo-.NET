@@ -13,7 +13,7 @@ namespace ApiCatlogo.Models
 
         public string? ImagemUrl { get; set; }
 
-        public List<Produto>? Produtos { get; set; }
+        public virtual List<Produto>? Produtos { get; set; }
 
         public Categoria()
         {

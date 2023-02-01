@@ -1,5 +1,7 @@
 using ApiCatalogo.Context;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Proxies;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +15,7 @@ builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("FilmeConnection");
 
-builder.Services.AddDbContext<ApiNetContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<ApiNetContext>(options => options.UseSqlServer(connectionString).UseLazyLoadingProxies(false));
 
 var app = builder.Build();
 
